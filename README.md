@@ -39,3 +39,9 @@ sudo apt install postgresql postgresql-contrib
 
   ALTER USER postgres WITH PASSWORD 'postgres';
   ```
+## Migration
+
+```
+new migration -> mix ecto.gen.migration name_of_migration
+run migration -> mix ecto.migrate
+```
