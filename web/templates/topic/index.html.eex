@@ -1,5 +1,7 @@
 <h2>Topics</h2>
 
+<%= link to: topic_path(@conn, :new), class: "btn btn-success btn-lg", role: "button" do %>New Topic<% end %></a>
+
 <ul class="list-group">
     <%= for topic <- @topics do %>
         <li class="list-group-item">
